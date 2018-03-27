@@ -1,0 +1,20 @@
+#pseudocode standard
+
+pseudocode adala semacam strukue bahasa inggris yang menggambarkan algoritma. Ia mengarahkan seorang desainer untuk fokus pada logika pada algoritma tanpa kebingungan terhadap detail bahasa syntax.pada waktu yang bersamaan, pseducode perlu untuk dilengkapi. Ia menggambarkan keseluruhan logika dari algoritma yang pasti untuk diterapkan menjadi sebuah tugas catatan mekanis untuk di terjamahkan baris perbaris kedalam source code.
+
+pada umumnya kata kerja yang digunkan didalam pseudocode harus menjadi sebuah kata kerja dari lingkup permasalahan, bukan merupakan lingkup implementasi. pseudocode adalah sebuah narasi untuk seseorang yang mengetahui kebutuhan (lingkup permasalahan) dan sedang mencoba untuk mempelajari bagaimana solusi untuk diorganisasikan. contoh ;
+
+Extract the next word from the line (good) 
+set word to get next token (poor)
+Append the file extension to the name (good) 
+name = name + extension (poor)
+
+FOR all the characters in the name (good) 
+FOR character = first to last (ok)
+
+Sebagai catatan sebuah logika harus diuraikan sampai level single loop atau single decision. Misal "Search teh list and find and find the customer with highest balance" ini sangat tidak jelas karena hal itu mengambil sebuah perulangan DAN sebuah Pengkondisian bersarang untuk diterapkan. hal itu lebih baik menggunakan "FIND" atau "LOOKUP" jika ada sebuah fungsi yang ditentukan sebelumnya untuk hal itu seperti "String.indexOF()".
+
+Setiap buku teks dan setiap desainer individual mungkin memiliki ciri khas dari pseudocodenya. Pseudocode bukanlah notasi yang ketat, sampai hal itu hanya dibaca orang, bukan komputer. Tidak adanya Standar Universal untuk sebuah industri, tetapi untuk tujuan penginstruksian itu sangat membantu apabila kita mengikuti gaya yang sama. Format dibawah sangat direkomendasikan untuk mengekspresikan solusi mu didalam kekelas kami.
+
+
+
